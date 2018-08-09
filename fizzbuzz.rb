@@ -6,6 +6,6 @@ def fizzbuzz(x)
   elsif x % 3 % 5 == 0 #if the number x is divisible by 3 and 5
   "FizzBuzz"
 else
-  "nil"
+  nil
 end
 end
