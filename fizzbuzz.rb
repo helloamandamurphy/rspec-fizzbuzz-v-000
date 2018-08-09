@@ -3,7 +3,7 @@ def fizzbuzz(x)
   "Fizz"
   elsif x % 5 == 0 #if the number x is divisible by 5
   "Buzz"
-  elsif x % 3 && x % 5 == 0 #if the number x is divisible by 3 and 5
+  elsif x % 3 == 0 && x % 5 == 0 #if the number x is divisible by 3 and 5
   "FizzBuzz"
 else
   nil
